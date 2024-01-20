@@ -5,6 +5,6 @@ import react from "@astrojs/react";
 export default defineConfig({
   // Enable React to support React JSX components.
   integrations: [react()],
-  site: "https://rowan-carlsen.github.io",
-  base: "/nockat-dnd",
+  // site: "https://rowan-carlsen.github.io",
+  // base: "/nockat-dnd",
 });
