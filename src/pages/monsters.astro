@@ -1,7 +1,9 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import MonsterList from "../components/MonsterList";
 ---
 
 <Layout>
   <div>Monsters</div>
+  <MonsterList client:load />
 </Layout>
